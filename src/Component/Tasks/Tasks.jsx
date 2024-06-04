@@ -9,9 +9,7 @@ const Tasks = ({ arrobj }) => {
           <div className="col">
             <div className="card m-5 box">
               <div className="card-body m-4">
-                <div className="card-text text-center disable">
-                  {ele.head}
-                </div>
+                <div className="card-text text-center disable">{ele.head}</div>
                 <div className="card-title text-center">
                   <h1>{ele.title}</h1>
                 </div>
@@ -42,7 +40,11 @@ const Tasks = ({ arrobj }) => {
                 <div className="card-text">
                   <p>{ele.h}</p>
                 </div>
-                <button className="btn btn-primary">Button</button>
+                {ele.button ? (
+                  <button className="btn btn-primary ">Button</button>
+                ) : (
+                  <button className="btn btn-primary btnblur">Button</button>
+                )}
               </div>
             </div>
           </div>

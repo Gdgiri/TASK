@@ -6,6 +6,8 @@ import "./App.css";
 function App() {
   const arrobj = [
     {
+      button: false,
+      text:false,
       head: "FREE",
       title: "$0/Month",
       a: (
@@ -50,6 +52,8 @@ function App() {
       ),
     },
     {
+      button: false,
+      text:false,
       head: "PLUS",
       title: "$9/Month",
       a: (
@@ -99,6 +103,8 @@ function App() {
       ),
     },
     {
+      button: true,
+      text:false,
       head: "PRO",
       title: "$49/Month",
       a: (

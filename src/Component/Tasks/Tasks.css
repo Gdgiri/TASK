@@ -19,3 +19,7 @@ body {
 .box:hover {
   zoom: 103%;
 }
+
+.btnblur{
+  opacity: 0.5;
+}
